@@ -1,0 +1,200 @@
+
+body{
+    direction: ltr;
+}/*..................Login page*/
+.login {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #e8e8e8;
+    padding: 20px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+}
+
+.login input {
+    width: 270px;
+    direction: ltr;
+    padding: 5px;
+    margin: 5px;
+}
+
+.login input[type=submit] {
+    width: 170px;
+    color: #fff;
+    background-color: #008300;
+    border: none;
+    border-radius: 3px;
+}
+
+.login input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #005a00;
+}
+/* ------------------------------- Admin table */
+.admin table {
+    width: 400px;
+    margin: 10px auto;
+    font-family: Arial;
+
+}
+
+.admin a {
+    color: #358ac8;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.admin a:hover {
+    color: #1c4968;
+}
+
+.admin table tr td {
+    border: 1px solid #484848;
+    padding: 5px;
+    font-size: 13px;
+}
+
+
+/* ------------------------------- Admin page */
+.admin {
+    text-align: center;
+    width: 600px;
+    margin: 20px  auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #b3b3b3;
+    border-radius: 2px;
+
+}
+
+.admin h2 {
+    padding: 0 0 5px 0;
+    margin: 0;
+    font-size: 20px;
+    border-bottom: 2px solid #ccc;
+}
+/* ------------------------------- Admin menu */
+.admin .top-menu ul {
+    padding: 0 0 10px 0;
+    margin: 10px 0 0 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.admin .top-menu ul li {
+    padding-left: 9px;
+    display: inline-block;
+    direction: ltr;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.admin .top-menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.admin .top-menu ul li a:hover {
+    color: #4e4e4e;
+}
+
+/* ------------------------------- Admin add cat */
+.setting {
+    margin-top: 10px;
+    padding: 0 0 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.setting input {
+    padding: 5px;
+}
+
+.setting input[type=submit] {
+    padding: 0;
+    cursor: pointer;
+}
+/* ------------------------------- Admin add post */
+.post{
+    margin-top: 10px;
+}
+.post input, .post select {
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.post textarea {
+    width: 400px;
+    margin: 5px;
+    resize: none;
+    font-family: Arial;
+}
+
+.post input[type=submit] {
+    width: 130px;
+    padding: 5px;
+    cursor: pointer;
+}
+/* ------------------------------- Admin comments */
+
+.comment-item {
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+}
+
+.comment-item .comment-username {
+    font-size: 18px;
+}
+
+.comment-item .comment {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.comment-item .comment-post-name {
+    font-family: Arial;
+    font-size: 10px;
+}
+
+.comment-item .comment-setting {
+    background-color: green;
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.comment-item .comment-setting a {
+    color: #fff;
+}
+
+.comment-item .comment-setting a:hover {
+    color: #c8c8c8;
+}
+
+.comment-item .comment-setting ul {
+    padding: 0;
+    margin: 0;
+}
+
+.comment-item .comment-setting ul li {
+    display: inline-block;
+    margin-left: 5px;
+}
+.comment-setting textarea {
+    width: 95%;
+    resize: none;
+    padding: 5px;
+    margin: 5px;
+    font-family: Arial;
+    height: 200px;
+}
+
+.comment-setting input[type=submit], .comment-setting button {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
